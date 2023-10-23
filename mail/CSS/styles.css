@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.access {
+  height: 100px;
+  width: 400px;
+  line-height: 100px;
+}
+
+.wrapper {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Refused {
+  background-color: red;
+}
+
+.Confirmed {
+  background-color: green;
+}
+
+.display-change {
+  display: inline-block;
+}
+
+.display-disappear {
+  display: none;
+}
